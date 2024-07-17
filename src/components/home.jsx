@@ -1,4 +1,5 @@
 import React from "react";
+import Git from "../assets/github.png"
 
 export default function Home() {
   return (
@@ -18,10 +19,10 @@ export default function Home() {
           <div className="grid justify-start">
             <div className=" mt-10 grid grid-flow-col gap-4 ">
               <div className="w-10 h-10">
-                <img src="./src/assets/github.png" alt="Github"></img>
+                <img src={Git }alt="Github"></img>
               </div>
               <div className="w-10 h-10">
-                <img src="./src/assets/linkedin.png" alt="Linkedin"></img>
+                <img src="../src/assets/linkedin.png" alt="Linkedin"></img>
               </div>
               <div className="w-10 h-10">
                 <img src="./src/assets/insta.png" alt="Instagram"></img>
