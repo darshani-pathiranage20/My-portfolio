@@ -1,5 +1,5 @@
 import React from "react";
-import Git from "../assets/github.png"
+import Git from "../../src/assets/github.png"
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
                 <img src={Git }alt="Github"></img>
               </div>
               <div className="w-10 h-10">
-                <img src="../src/assets/linkedin.png" alt="Linkedin"></img>
+                <img src="../../src/assets/linkedin.png" alt="Linkedin"></img>
               </div>
               <div className="w-10 h-10">
                 <img src="./src/assets/insta.png" alt="Instagram"></img>
