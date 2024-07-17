@@ -6,7 +6,7 @@ export default function About() {
       <div className=" grid mx-20 grid-cols-[40%_60%] gap-10 mb-10 hover:shadow-[#025a62]  shadow-md rounded-3xl ">
         <div className=" px-28  my-20  flex items-center justify-center  ">
           <img
-            src="./src/assets/portfolio.jpg"
+            src="../src/assets/portfolio.jpg"
             alt="my Photo"
             className="  object-cover  rounded-full "
           ></img>

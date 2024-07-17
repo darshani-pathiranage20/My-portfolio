@@ -38,7 +38,7 @@ export default function Home() {
         <div className="">
           <div className=" m-24 mt-24  ">
             <img
-              src="./src/assets/global-network-icon.png"
+              src="../src/assets/global-network-icon.png" alt="ggthb"
               className="m-3 w-96 h-96"
               
             ></img>

@@ -27,7 +27,7 @@ function App() {
         </div>
         </section>
 
-        <section className=" ">
+        <section className=" bg-[#0f172a] py-10">
           <div className="col-span-1 grid justify-start mt-5 mb-10 ml-20 text-[#ffffff] text-5xl font-arvo ">
             <p>About Me</p>
           </div>
