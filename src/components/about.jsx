@@ -14,7 +14,7 @@ export default function About() {
         </div>
 
         <div className="grid  grid-cols-1 grid-rows h-screen pt-10 mr-20  ">
-          <div className="text-zinc-300 grid text-3xl font-arvo justify-center">
+          <div className="text-zinc-300 grid text-4xl font-arvo justify-center">
             <p>Darshani Pathiranage</p>
           </div>
           <div className=" text-zinc-300 font-sans  grid justify-center">

@@ -38,9 +38,9 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-10 grid grid-flow-col justify-start gap-2">
-              <div className=" text-[#FFFFFF] font-mono mb-16 relative bg-gradient-to-r from-[#81dcf6] to-[#b0b1b4] text-transparent bg-clip-text">Download CV</div>
+              <div className=" text-[#FFFFFF] font-mono mb-16 pt-1 relative bg-gradient-to-r from-[#81dcf6] to-[#b0b1b4] text-transparent bg-clip-text">Download CV</div>
               <div className="w-6 h-6">
-              <MdCloudDownload size={30} className="text-white"/>
+              <a href="../assets/DarshaniPathiranage.pdf" download="DarshaniPathiranage.pdf"><MdCloudDownload size={30} className="text-white"/></a>
               </div>
             </div>
           </div>
