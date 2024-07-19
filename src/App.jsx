@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="bg-slate-900 w-screen">
       <section>
-        <Navigation></Navigation>
+        <Navigation/>
       </section>
 
       <section className=" ">
@@ -23,7 +23,7 @@ function App() {
             <p></p>
           </div>
         <div>
-          <Home></Home>
+          <Home/>
         </div>
         </section>
 
@@ -32,7 +32,7 @@ function App() {
             <p>About Me</p>
           </div>
           <div>
-            <About></About>
+            <About/>
           </div>
         </section>
 

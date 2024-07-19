@@ -1,4 +1,5 @@
 import React from "react";
+import phote from "../assets/portfolio.jpg"
 
 export default function About() {
   return (

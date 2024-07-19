@@ -1,23 +1,25 @@
 import React, { useEffect, useState } from "react";
+import Gardian from "../assets/gardian.png"
+import Openheart from "../assets/openheart.png"
 
 export default function Projects() {
   const projectsArray = [
     {
-      image: "../src/assets/gardian.png",
+      image: Gardian,
       Project_name: "GUARDIAN",
       Project_discription:
         "Mobile app and web app system for travel security Mobile app and web app system for travel security",
       Used_languages: "React Native | Node.js | Express.js | MongoDB |EXPO",
     },
     {
-      image: "../src/assets/openheart.png",
+      image: Openheart,
       Project_name: "Zolo",
       Project_discription: "Fitness Social Media Platformt",
       Used_languages: "Spring Boot | MySQL | React.js",
     },
 
     {
-      image: "../src/assets/openheart.png",
+      image: Openheart,
       Project_name: "Open Heart  - Mobile Application ",
       Project_discription: "Charity Donation Management System ",
       Used_languages: "Kotlin | Firebase ",
