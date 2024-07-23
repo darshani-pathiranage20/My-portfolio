@@ -8,11 +8,11 @@ import contactImage from "../assets/contactme.vecImage-removebg-preview.png"
 export default function Contact() {
   return (
     <div className="flex ">
-      <div className="flex flex-col  justify-center  p-10 ">
-        <div className=" text-white text-5xl mb-16">
+      <div className="flex flex-col  justify-center   ">
+        <div className=" text-white text-5xl mb-16 ">
           <p className="p-6">Let's work together</p>
         </div>
-        <div className=" flex flex-row">
+        <div className=" flex flex-row p-16">
           <div className="">
             <div className=" flex  mb-16">
               <div className="rounded-full bg-black flex justify-center items-center absolute  w-[120px] h-[120px] ">
@@ -35,7 +35,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="flex w-[50vw] justify-center items-center ">
+      <div className="flex w-[40vw] justify-end items-end  pt-32 ml-20">
           <img src={contactImage}></img>
       </div>
     </div>

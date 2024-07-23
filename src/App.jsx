@@ -27,8 +27,8 @@ function App() {
           </div>
         </section>
 
-        <section id="about" className=" bg-[#0f172a] py-10">
-          <div className="col-span-1 grid justify-start mt-5 mb-10 ml-20 text-[#ffffff] text-5xl font-arvo ">
+        <section id="about" className=" bg-[#0f172a] ">
+          <div className="col-span-1 grid justify-start  ml-20 mb-10 text-[#ffffff] text-5xl font-arvo ">
             <p>About Me</p>
           </div>
           <div>
@@ -37,7 +37,7 @@ function App() {
         </section>
 
         <section id="skills" className="">
-          <div className="col-span-1 grid justify-start pt-5 ml-20 mb-10 mt-5 text-[#ffffff] text-5xl font-arvo">
+          <div className="col-span-1 grid justify-start  ml-20 mb-10  text-[#ffffff] text-5xl font-arvo">
             Skills
           </div>
           <div className="mx-20 mt-5 mb-20">
@@ -48,7 +48,7 @@ function App() {
         </section>
 
         <section id="project" className="  ">
-          <div className="mt-5 pl-20  text-[#ffffff] text-5xl font-arvo  mb-5 ">
+          <div className="ml-20 mb-10  text-[#ffffff] text-5xl font-arvo  ">
             Projects
           </div>
           <div className="mx-20 mt-5 mb-20">
@@ -59,9 +59,9 @@ function App() {
         </section>
 
         <section id="contact" className="h-screen m-20 bg-slate-900 my-2">
-          <div className="col-span-1 grid justify-start mt-5 mb-5  text-[#ffffff] text-5xl font-arvo">
+          {/* <div className="col-span-1 grid justify-start ml-20 mb-10 text-[#ffffff] text-5xl font-arvo">
             Contact
-          </div>
+          </div> */}
           <div className="">
             <Contact />
           </div>
