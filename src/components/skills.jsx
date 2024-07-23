@@ -49,7 +49,7 @@ export default function Skills() {
   ];
   return (
     
-      <div className=" grid grid-cols-5  hover:shadow-[#025a62]  shadow-md rounded-3xl p-16 pl-  ">
+      <div className=" grid grid-cols-5   p-16 pl-  ">
         {skillsArray.map((item, index) => (
           <div key={index} className=" flex flex-col rounded-2xl   justify-center w-fit mb-5 p-" >
             <div className="  flex justify-center rounded-2xl    ">

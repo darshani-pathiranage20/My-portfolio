@@ -8,7 +8,7 @@ import contactImage from "../assets/contactme.vecImage-removebg-preview.png"
 export default function Contact() {
   return (
     <div className="flex ">
-      <div className="flex flex-col hover:shadow-[#025a62] justify-center  p-10 shadow-lg rounded-3xl">
+      <div className="flex flex-col  justify-center  p-10 ">
         <div className=" text-white text-5xl mb-16">
           <p className="p-6">Let's work together</p>
         </div>

@@ -10,7 +10,7 @@ import myphoto from "../assets/global-network-icon.png";
 export default function Home() {
   return (
     <div>
-      <div className="  grid grid-cols-2  hover:shadow-[#025a62]  shadow-md rounded-3xl">
+      <div className="  grid grid-cols-2 ">
         <div className=" pl-28 ">
           <div className=" ">
             <p className="text-5xl font-extrabold  mt-20 relative bg-gradient-to-r from-[#99e9ff] to-[#717172] text-transparent bg-clip-text">
