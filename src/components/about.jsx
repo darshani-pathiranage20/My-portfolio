@@ -1,11 +1,11 @@
 import React from "react";
-import Photo from "../assets/portfolio.jpg"
+import Photo from "../assets/portfolio.jpg";
 
 export default function About() {
   return (
     <div className=" ">
-      <div className=" grid mx-20 grid-cols-[40%_60%] gap-10 mb-10  ">
-        <div className=" px-28  my-20  flex items-center justify-center  ">
+      <div className=" grid mx-20 grid-cols-[40%_60%] gap-10 ">
+        <div className=" px-24  flex items-center justify-center  ">
           <img
             src={Photo}
             alt="my Photo"
@@ -17,10 +17,7 @@ export default function About() {
           <div className="text-[#1ae7f6] grid text-4xl font-arvo justify-center">
             <p>Darshani Pathiranage</p>
           </div>
-          
-          
-          <div className=" text-[#8ac7d5] font-sans pt-6  grid justify-center">
-          {/* <div className="absolute left-[44.5%] -ml-16 w-1 h-96 rounded-lg bg-[#b0c9ca] "></div> */}
+          <div className=" text-[#aecfd6] font-sans pt-16 grid justify-center">
             <p className="text-justify ">
               Hello! I'm Darshani Pathiranage, an enthusiastic and
               self-motivated IT undergraduate student currently studying at the
@@ -32,17 +29,19 @@ export default function About() {
               for a dedicated and skilled individual to join your team, I would
               love to connect with you!
             </p>
+            <p className="pt-14 text-[#ffffff] font-bold font-arvo text-3xl">
+              Education
+            </p>
           </div>
-          <div className=" text-[#8ac7d5] grid font-sans justify-center pt-16">
+          <div className=" text-[#aecfd6] grid font-sans justify-center pt-16">
             <p>
-              (Bsc.(Hons) in Information Technology - Specialization in Information
-              Technology) <br></br>Sri Lanka Institute of Information Technology (SLIIT)<br></br>
+              (Bsc.(Hons) in Information Technology - Specialization in
+              Information Technology) <br></br>Sri Lanka Institute of
+              Information Technology (SLIIT)<br></br>
               Current Undergraduate Student (2021 - 2025)
             </p>
           </div>
-          <div className=" text-zinc-300 grid justify-center">
-            
-          </div>
+          <div className=" text-zinc-300 grid justify-center"></div>
           <div className=" text-zinc-300 grid justify-center"></div>
         </div>
       </div>

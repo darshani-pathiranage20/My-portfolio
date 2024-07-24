@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Gardian from "../assets/gardian.png"
-import Openheart from "../assets/openheart.png"
+import Gardian from "../assets/gardian.png";
+import Openheart from "../assets/openheart.png";
 
 export default function Projects() {
   const projectsArray = [
@@ -30,8 +30,7 @@ export default function Projects() {
       {projectsArray.map((Pitem, Pindex) => (
         <div
           key={Pindex}
-          className=" flex flex-col  hover:shadow-[#025a62]  shadow-lg rounded-3xl "
-        >
+          className=" flex flex-col  hover:shadow-[#025a62]  shadow-lg rounded-3xl ">
           <div className=" bg-flex justify-center items-center rounded-3xl h-projet w-full mb-3">
             <img
               src={Pitem.image}
