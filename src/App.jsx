@@ -9,59 +9,50 @@ import About from "./components/about";
 import Navigation from "./components/navigation";
 
 function App() {
-  
-
   return (
-    <div className="bg-slate-900 w-screen">
+    <div className="bg-[#030303] w-screen">
       <section>
         <Navigation />
       </section>
 
-      <section className=" ">
-        <section id="home" className="bg-slate-900 h-screen px-20 pt-16">
+      <section className="scroll-v ">
+        <section id="home" className=" h-screen px-20 pt-16 bg-[url('../src\assets\myphoto.png')] bg-cover bg-center size-cover  ">
           <div className=" grid justify-start text-zinc-300 text-3xl   ">
             <p></p>
           </div>
-          <div>
+          <div className="grid mx-20 mt-5 mb-20">
             <Home />
           </div>
         </section>
 
-        <section id="about" className=" bg-[#0f172a] ">
+        <section id="about">
           <div className="col-span-1 grid justify-start  ml-20 mb-10 text-[#ffffff] text-5xl font-arvo ">
             <p>About Me</p>
           </div>
-          <div>
+          <div className="grid mx-20 mt-5 mb-20">
             <About />
           </div>
         </section>
 
-        <section id="skills" className="">
+        <section id="skills">
           <div className="col-span-1 grid justify-start  ml-20 mb-10  text-[#ffffff] text-5xl font-arvo">
             Skills
           </div>
-          <div className="mx-20 mt-5 mb-20">
-            <div className="grid  ">
-              <Skills />
-            </div>
+          <div className="grid mx-20 mt-5 mb-20 ">
+            <Skills />
           </div>
         </section>
 
-        <section id="project" className="  ">
+        <section id="project">
           <div className="ml-20 mb-10  text-[#ffffff] text-5xl font-arvo  ">
             Projects
           </div>
-          <div className="mx-20 mt-5 mb-20">
-            <div className="grid  ">
-              <Projects />
-            </div>
+          <div className="grid mx-20 mt-5 mb-20 ">
+            <Projects />
           </div>
         </section>
 
-        <section id="contact" className="h-screen m-20 bg-slate-900 my-2">
-          {/* <div className="col-span-1 grid justify-start ml-20 mb-10 text-[#ffffff] text-5xl font-arvo">
-            Contact
-          </div> */}
+        <section id="contact" className="h-screen m-20  my-2">
           <div className="">
             <Contact />
           </div>

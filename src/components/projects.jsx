@@ -42,7 +42,7 @@ export default function Projects() {
             <div className="text-[#1ae7f6] text-xl  font-black">
               <p>{Pitem.Project_name}</p>
             </div>
-            <div className="text-[#bcc4c8] font-mono mb-4  pr-4">
+            <div className="text-[#b1cece] font-mono mb-4  pr-4">
               <p>{Pitem.Project_discription}</p>
             </div>
             <div className="text-[#90e8f9] font-mono pb-5 pr-4">

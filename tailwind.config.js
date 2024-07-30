@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
         arvo: ['Arvo', 'sans-serif'],
+        libre: ['"Libre Baskerville"', 'serif'],
       },
       height: {
         projet: ['22rem']
