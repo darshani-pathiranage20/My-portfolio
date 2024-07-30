@@ -7,6 +7,7 @@ import Contact from "./components/contact";
 import Home from "./components/home";
 import About from "./components/about";
 import Navigation from "./components/navigation";
+import Img from "./assets/myphoto.png"
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       </section>
 
       <section className="scroll-v ">
-        <section id="home" className=" h-screen px-20 pt-16 bg-[url('../src\assets\myphoto.png')] bg-cover bg-center size-cover  ">
+        <section id="home" className=" h-screen px-20 pt-16  bg-cover bg-center size-cover  " style={{ backgroundImage: `url(${Img})` }}>
           <div className=" grid justify-start text-zinc-300 text-3xl   ">
             <p></p>
           </div>
