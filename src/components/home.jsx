@@ -4,7 +4,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { MdCloudDownload } from "react-icons/md";
-import myphoto from "../assets/myphoto.png";
+// import myphoto from "../assets/myphoto.png";
 
 export default function Home() {
   return (

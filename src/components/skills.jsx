@@ -79,7 +79,7 @@ export default function Skills() {
             </div>
           </div>
           <div className=" flex flex-col ml-4 items-center mt-10 ">
-            <div className="bg-[#1ae7f6] opacity-100 p-4 w-48 h-48 mb-4 rounded-lg ">
+            <div className="bg-[#FFFFFF] opacity-100 p-4 w-48 h-48 mb-4 rounded-lg ">
               <div className="w-[30%] ">
                 <img className=" " src={Codesettings} alt="work item"></img>
               </div>
@@ -108,7 +108,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="text-[#1ae7f6]  ml-10 mt-10 w-[50%]">
+        <div className="text-[#1ae7f6]  ml-10 mt-10 w-[50%] ">
           <div className=" items-center  pt-10">
             <div>
               <p className="text-6xl pl-6 text-[#d8ebf7] font-libre font-bold absolute opacity-20 ">
@@ -118,7 +118,7 @@ export default function Skills() {
                 My Services
               </p>
             </div>
-            <div className="text-balance text-[#ffffff] pt-16 pl-6 ">
+            <div className="text-balance text-[#ffffff] pt-16 pl-6 opacity-80 ">
               <p>
                 In my journey as a developer and designer, I have acquired a
                 diverse set of skills and mastered various technologies that
@@ -131,12 +131,12 @@ export default function Skills() {
         </div>
       </div>
 
-      <div>
-        <div className="text-[#ffffff] text-5xl text-center mt-24 mb-10 font-libre ">
+      <div className="flex flex-col justify-center items-center">
+        <div className="text-[#ffffff] text-5xl text-center mt-24 mb-10 font-libre opacity-90 ">
           Tools & Frameworks for <br /> Digital Brilliance
         </div>
-        <div className="text-[#ffffff]  px-16 pt-10 pb-16">
-          <p className="text-center ">
+        <div className="text-[#ffffff]  px-16  ">
+          <p className="text-center text-sm opacity-80">
             Empowering innovative digital solutions through a curated selection
             of cutting-edge tools and frameworks. This includes leveraging robust development environments,
             agile methodologies, and advanced cloud platforms to create scalable
@@ -151,7 +151,7 @@ export default function Skills() {
           {skillsArray.map((item, index) => (
             <div
               key={index}
-              className=" flex flex-col rounded-2xl   justify-center w-fit mb-5 "
+              className=" flex flex-col rounded-2xl mr-2 justify-center w-fit mb-5 "
             >
               <div className="  flex justify-center rounded-2xl    ">
                 {/* <img className=""  src={item.image}></img> */}

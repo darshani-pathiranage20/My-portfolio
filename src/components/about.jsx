@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../assets/portfolio.jpg";
+import Photo from "../assets/MY222.jpg";
 
 export default function About() {
   return (
@@ -14,11 +14,11 @@ export default function About() {
         </div>
 
         <div className="grid  grid-cols-1 grid-rows h-screen pt-10 mr-20  ">
-          <div className="text-[#1ae7f6] grid text-4xl font-libre justify-center">
+          <div className="text-[#1ae7f6] grid text-4xl font-libre justify-center opacity-70">
             <p>Darshani Pathiranage</p>
           </div>
           <div className=" text-[#ffffff] font-sans pt-6 grid justify-center">
-            <p className="text-justify font-light ">
+            <p className="text-justify text-sm opacity-80 ">
               Hello! I'm Darshani Pathiranage, an enthusiastic and
               self-motivated IT undergraduate student currently studying at the
               Sri Lanka Institute of Information Technology (SLIIT). With a
@@ -33,7 +33,7 @@ export default function About() {
               Education
             </p>
           </div>
-          <div className=" text-[#ffffff] grid font-sans justify-center pt-8">
+          <div className=" text-[#ffffff] grid font-sans text-sm opacity-80 justify-center pt-8">
             <p>
               (Bsc.(Hons) in Information Technology - Specialization in
               Information Technology) <br></br>Sri Lanka Institute of

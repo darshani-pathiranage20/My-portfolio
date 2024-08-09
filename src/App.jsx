@@ -7,11 +7,11 @@ import Contact from "./components/contact";
 import Home from "./components/home";
 import About from "./components/about";
 import Navigation from "./components/navigation";
-import Img from "./assets/myphoto.png"
+import Img from "./assets/New Project02.png"
 
 function App() {
   return (
-    <div className="bg-[#030303] w-screen">
+    <div className="bg-[#161718] w-screen">
       <section>
         <Navigation />
       </section>
