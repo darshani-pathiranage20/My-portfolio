@@ -27,7 +27,7 @@ export default function About() {
               seeking opportunities as an intern to further enhance my knowledge
               and gain practical experience in the IT field. If you're looking
               for a dedicated and skilled individual to join your team, I would
-              love to connect with you!
+              love to connect with you.
             </p>
             <p className="pt-10 text-[#ffffff] font-libre text-3xl">
               Education
