@@ -27,7 +27,7 @@ function App() {
         </section>
 
         <section id="about">
-          <div className="col-span-1 grid justify-start  ml-20 mb-10 text-[#ffffff] text-5xl font-arvo ">
+          <div className="col-span-1 grid justify-start pt-10 ml-20 mb-10 text-[#ffffff] text-5xl font-arvo ">
             <p>About Me</p>
           </div>
           <div className="grid mx-20 mt-5 mb-20">
