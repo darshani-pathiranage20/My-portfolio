@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../assets/MY222.jpg";
+import Photo from "../assets/my Photo.jpg";
 
 export default function About() {
   return (

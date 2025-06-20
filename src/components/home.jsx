@@ -38,7 +38,7 @@ export default function Home() {
                 Download CV
               </div>
               <div className="w-6 h-6">
-                <a href="../src/assets/DarshaniPathiranage.pdf" download="DarshaniPathiranage.pdf">
+                <a href="../src/assets/Darshani Pathiranage_CV.pdf" download="Darshani Pathiranage_CV">
                   <MdCloudDownload size={30} className="text-white" />
                 </a>
               </div>
