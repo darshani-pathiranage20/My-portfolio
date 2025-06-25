@@ -3,6 +3,7 @@ import Webdesign from "../assets/webdesign.png";
 import Webcontent from "../assets/webcontent.png";
 import Codesettings from "../assets/codesettings.png";
 import Mobileappdevelopment from "../assets/mobileappdevelopment.png";
+import SkillCard from "../components/SkillCard.jsx";
 
 export default function Skills() {
   const skillsArray = [
@@ -57,54 +58,33 @@ export default function Skills() {
       <div className="flex ml-10  ">
         <div className="flex w-[50%]  pt-10">
           <div className=" flex flex-col items-center ">
-            <div className="bg-[#1ae7f6] opacity-100 p-4 w-48 h-48 mb-4 rounded-lg ">
-              <div className="w-[30%] ">
-                <img className=" " src={Webdesign} alt="work item"></img>
-              </div>
-              <div className="text-sm py-2 font-bold">UI/UX Designing</div>
-              <div className="text-left text-xs text-[#282727] ">
-                Crafting visually appealing and user-friendly designs that
-                enhance the overall user experience.
-              </div>
-            </div>
-            <div className="bg-[#FFFFFF] p-4 w-48 h-48  mb-4 rounded-lg ">
-              <div className="w-[30%] ">
-                <img className=" " src={Webcontent} alt="work item"></img>
-              </div>
-              <div className="text-sm py-2 font-bold">Frontend Development</div>
-              <div className="text-left text-xs text-stone-700">
-                Building interactive and responsive user interfaces with modern
-                frameworks to create seamless web experiences.
-              </div>
-            </div>
+            <SkillCard
+              image={Mobileappdevelopment}
+              title="DevOps"
+              description="I am eager to improve the speed and quality of software delivery
+                by learning automation and Continuous Integration/Continuous
+                Deployment (CI/CD) practices. am passionate about learning software development for both personal growth and practical applications."
+            />
+            <SkillCard
+              image={Mobileappdevelopment}
+              title="Cloud Engineering"
+              description="I enjoy understanding how to design, secure, and maintain
+                cloud-based infrastructure and applications."
+            />
           </div>
           <div className=" flex flex-col ml-4 items-center mt-10 ">
-            <div className="bg-[#FFFFFF] opacity-100 p-4 w-48 h-48 mb-4 rounded-lg ">
-              <div className="w-[30%] ">
-                <img className=" " src={Codesettings} alt="work item"></img>
-              </div>
-              <div className="text-sm py-2 font-bold">Backend Development</div>
-              <div className="text-left text-xs text-[#282727] ">
-                Developing secure and scalable server-side applications,
-                managing databases, and ensuring efficient data exchange.
-              </div>
-            </div>
-            <div className="bg-[#FFFFFF] p-4 w-48 h-48 mb-4 rounded-lg ">
-              <div className="w-[30%] ">
-                <img
-                  className=" "
-                  src={Mobileappdevelopment}
-                  alt="work item"
-                ></img>
-              </div>
-              <div className="text-sm py-2 font-bold">
-                Mobile App Development
-              </div>
-              <div className="text-left text-xs text-stone-700">
-                Creating high-performance mobile applications for Android and
-                iOS, delivering seamless and user-friendly experiences.
-              </div>
-            </div>
+            <SkillCard
+              image={Mobileappdevelopment}
+              title="SRE"
+              description="I am curious about the processes and tools that ensure the
+                scalability, reliability, and availability of software systems."
+            />
+            <SkillCard
+              image={Mobileappdevelopment}
+              title="Software Development"
+              description="I am passionate about learning software development for both
+                personal growth and practical applications."
+            />
           </div>
         </div>
 
@@ -138,13 +118,13 @@ export default function Skills() {
         <div className="text-[#ffffff]  px-16  ">
           <p className="text-center text-sm opacity-80">
             Empowering innovative digital solutions through a curated selection
-            of cutting-edge tools and frameworks. This includes leveraging robust development environments,
-            agile methodologies, and advanced cloud platforms to create scalable
-            and efficient applications. Utilizing state-of-the-art design and
-            prototyping tools ensures visually compelling and user-centric
-            interfaces, while comprehensive testing frameworks and continuous
-            integration tools maintain high standards of quality and
-            performance.
+            of cutting-edge tools and frameworks. This includes leveraging
+            robust development environments, agile methodologies, and advanced
+            cloud platforms to create scalable and efficient applications.
+            Utilizing state-of-the-art design and prototyping tools ensures
+            visually compelling and user-centric interfaces, while comprehensive
+            testing frameworks and continuous integration tools maintain high
+            standards of quality and performance.
           </p>
         </div>
         <div className=" grid grid-cols-5  p-16  ">
