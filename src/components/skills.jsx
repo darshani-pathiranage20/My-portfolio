@@ -60,25 +60,26 @@ export default function Skills() {
           <div className=" flex flex-col items-center ">
             <SkillCard
               image={Mobileappdevelopment}
-              title="DevOps"
-              description="I am eager to improve the speed and quality of software delivery
-                by learning automation and Continuous Integration/Continuous
-                Deployment (CI/CD) practices. am passionate about learning software development for both personal growth and practical applications."
-            />
-            <SkillCard
-              image={Mobileappdevelopment}
               title="Cloud Engineering"
               description="I enjoy understanding how to design, secure, and maintain
                 cloud-based infrastructure and applications."
             />
-          </div>
-          <div className=" flex flex-col ml-4 items-center mt-10 ">
             <SkillCard
               image={Mobileappdevelopment}
               title="SRE"
               description="I am curious about the processes and tools that ensure the
                 scalability, reliability, and availability of software systems."
             />
+          </div>
+          <div className=" flex flex-col ml-4 items-center mt-10 ">
+            <SkillCard
+              image={Mobileappdevelopment}
+              title="DevOps"
+              description="I am eager to improve the speed and quality of software delivery
+                by learning automation and Continuous Integration/Continuous
+                Deployment (CI/CD) practices. am passionate about learning software development for both personal growth and practical applications."
+            />
+
             <SkillCard
               image={Mobileappdevelopment}
               title="Software Development"
@@ -100,11 +101,12 @@ export default function Skills() {
             </div>
             <div className="text-balance text-[#ffffff] pt-16 pl-6 opacity-80 ">
               <p>
-                In my journey as a developer and designer, I have acquired a
-                diverse set of skills and mastered various technologies that
-                enable me to create innovative and efficient digital solutions
-                technologies that enable me to create innovative and efficient
-                digital solutions
+                I am a final-year IT undergraduate who is passionate about
+                modern technology and eager to build practical skills. I’m
+                currently exploring DevOps, Cloud Engineering, Infrastructure
+                Management, and Software Development. I am actively looking for
+                an internship opportunity where I can learn, contribute, and
+                grow in these areas while gaining real-world experience.
               </p>
             </div>
           </div>
