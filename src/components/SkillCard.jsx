@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function SkillCard({ image, title, description }) {
+export default function SkillCard({ image, title, description, color,  }) {
   return (
-    <div className="bg-[#FFFFFF] p-4 w-52 h-72 mb-4 rounded-lg">
-      <div className="w-[30%]">
+    <div className={`p-4 w-96 h-44 mb-4 rounded-lg `} style={{ backgroundColor: color || "#FFFFFF" }}>
+      <div className="w-[15%]">
         <img className="" src={image} alt="work item" />
       </div>
       <div className="text-sm py-2 font-bold">{title}</div>

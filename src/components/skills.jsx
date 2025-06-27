@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import Webdesign from "../assets/webdesign.png";
 import Webcontent from "../assets/webcontent.png";
 import Codesettings from "../assets/codesettings.png";
-import Mobileappdevelopment from "../assets/mobileappdevelopment.png";
+import CloudIcon from "../assets/cloud-service.png";
+import SreIcon from "../assets/SRE.png";
+import DevOpsIcon from "../assets/devOps.png";
+import SoftwareDevIcon from "../assets/SE.png";
 import SkillCard from "../components/SkillCard.jsx";
 
 export default function Skills() {
@@ -55,42 +58,9 @@ export default function Skills() {
 
   return (
     <div>
-      <div className="flex ml-10  ">
-        <div className="flex w-[50%]  pt-10">
-          <div className=" flex flex-col items-center ">
-            <SkillCard
-              image={Mobileappdevelopment}
-              title="Cloud Engineering"
-              description="I enjoy understanding how to design, secure, and maintain
-                cloud-based infrastructure and applications."
-            />
-            <SkillCard
-              image={Mobileappdevelopment}
-              title="SRE"
-              description="I am curious about the processes and tools that ensure the
-                scalability, reliability, and availability of software systems."
-            />
-          </div>
-          <div className=" flex flex-col ml-4 items-center mt-10 ">
-            <SkillCard
-              image={Mobileappdevelopment}
-              title="DevOps"
-              description="I am eager to improve the speed and quality of software delivery
-                by learning automation and Continuous Integration/Continuous
-                Deployment (CI/CD) practices. am passionate about learning software development for both personal growth and practical applications."
-            />
-
-            <SkillCard
-              image={Mobileappdevelopment}
-              title="Software Development"
-              description="I am passionate about learning software development for both
-                personal growth and practical applications."
-            />
-          </div>
-        </div>
-
-        <div className="text-[#1ae7f6]  ml-10 mt-10 w-[50%] ">
-          <div className=" items-center  pt-10">
+      <div className="items-center flex flex-col justify-center w-[100%]">
+        <div className="text-[#1ae7f6]  w-[100%] ">
+          <div className=" flex flex-col items-center  ">
             <div>
               <p className="text-6xl pl-6 text-[#d8ebf7] font-libre font-bold absolute opacity-20 ">
                 My Services
@@ -99,16 +69,48 @@ export default function Skills() {
                 My Services
               </p>
             </div>
-            <div className="text-balance text-[#ffffff] pt-16 pl-6 opacity-80 ">
+            <div className="text-center text-[#ffffff] pt-6 pl-6 opacity-80 ">
               <p>
                 I am a final-year IT undergraduate who is passionate about
                 modern technology and eager to build practical skills. I’m
-                currently exploring DevOps, Cloud Engineering, Infrastructure
+                currently exploring Cloud Engineering, DevOps, Infrastructure
                 Management, and Software Development. I am actively looking for
                 an internship opportunity where I can learn, contribute, and
                 grow in these areas while gaining real-world experience.
               </p>
             </div>
+          </div>
+        </div>
+        <div className="w-full flex justify-center pt-7">
+          <div className=" flex flex-col items-center gap-3">
+            <SkillCard
+              image={CloudIcon}
+              title="Cloud Engineering"
+              description="I enjoy understanding how to design, secure, and maintain
+                cloud-based infrastructure and applications."
+              color="#1ae7f6"
+            />
+            <SkillCard
+              image={SreIcon}
+              title="SRE"
+              description="I am curious about the processes and tools that ensure the
+                scalability, reliability, and availability of software systems."
+            />
+          </div>
+          <div className=" flex flex-col ml-6 items-center mt-7 gap-y-3 ">
+            <SkillCard
+              image={DevOpsIcon}
+              title="DevOps"
+              description="I am eager to improve the speed and quality of software delivery
+                by learning automation and CI/CD practices. am passionate about learning software development for both personal growth and practical applications."
+            />
+
+            <SkillCard
+              image={SoftwareDevIcon}
+              title="Software Development"
+              description="I am passionate about learning software development for both
+                personal growth and practical applications."
+            />
           </div>
         </div>
       </div>
