@@ -9,8 +9,8 @@ import { MdCloudDownload } from "react-icons/md";
 export default function Home() {
   return (
     <div>
-      <div className="grid grid-cols-2">
-        <div className="pl-28">
+      <div >
+        <div className="pl-12">
           <div>
             <p className="text-5xl font-extrabold mt-20 relative bg-gradient-to-br from-[#1ae7f6] to-[#ffffff] text-transparent bg-clip-text">
               Hi, I’m Darshani
@@ -22,7 +22,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid justify-start">
-            <div className="mt-10 grid grid-flow-col gap-4">
+            <div className="mt-10 grid grid-flow-col justify-start gap-4">
               <div className="w-10 h-10">
                 <a
                   href="https://github.com/it21161742"
@@ -54,7 +54,7 @@ export default function Home() {
                   href="/Darshani Pathiranage_CV.pdf"
                   download="Darshani Pathiranage_CV"
                 >
-                  <MdCloudDownload size={30} className="text-white" />
+                  <MdCloudDownload size={30} className="text-white mt-2 ml-2" />
                 </a>
               </div>
             </div>

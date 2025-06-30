@@ -10,6 +10,11 @@ import SkillCard from "../components/SkillCard.jsx";
 
 export default function Skills() {
   const skillsArray = [
+    //laguages
+    {
+      language: "Java",
+      image: "../src/assets/skills/css.png",
+    },
     {
       language: "JavaScript",
       image: "../src/assets/skills/css.png",
@@ -23,21 +28,10 @@ export default function Skills() {
       image: "../src/assets/skills/css.png",
     },
     {
-      language: "MERN",
+      language: "Python",
       image: "../src/assets/skills/css.png",
     },
-    {
-      language: "React Native",
-      image: "../src/assets/skills/css.png",
-    },
-    {
-      language: "Tailwind CSS",
-      image: "../src/assets/skills/css.png",
-    },
-    {
-      language: "Spring Boot",
-      image: "../src/assets/skills/css.png",
-    },
+    //DB management
     {
       language: "MySQL",
       image: "../src/assets/skills/css.png",
@@ -47,18 +41,64 @@ export default function Skills() {
       image: "../src/assets/skills/css.png",
     },
     {
+      language: "oracle",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "AWS",
+      image: "../src/assets/skills/css.png",
+    },
+    
+    {
       language: "Firebase",
       image: "../src/assets/skills/css.png",
     },
     {
-      language: "Bootstrap",
+      language: "SQLite",
+      image: "../src/assets/skills/css.png",
+    },
+    //Frameworks and tools
+    {
+      language: "React",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "React Native",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "Node js",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "Tailwind CSS",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "Express js",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "Postman",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "EXPO",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "VS Code",
+      image: "../src/assets/skills/css.png",
+    },
+    {
+      language: "GitHub",
       image: "../src/assets/skills/css.png",
     },
   ];
 
   return (
     <div>
-      <div className="items-center flex flex-col justify-center w-[100%]">
+      <div className="mt-10 items-center flex flex-col justify-center w-[100%]">
         <div className="text-[#1ae7f6]  w-[100%] ">
           <div className=" flex flex-col items-center  ">
             <div>
@@ -120,7 +160,7 @@ export default function Skills() {
           Tools & Frameworks for <br /> Digital Brilliance
         </div>
         <div className="text-[#ffffff]  px-16  ">
-          <p className="text-center text-sm opacity-80">
+          <p className="text-center  opacity-80">
             Empowering innovative digital solutions through a curated selection
             of cutting-edge tools and frameworks. This includes leveraging
             robust development environments, agile methodologies, and advanced
@@ -131,7 +171,7 @@ export default function Skills() {
             standards of quality and performance.
           </p>
         </div>
-        <div className=" grid grid-cols-5  p-16  ">
+        <div className=" grid grid-cols-6  p-16  ">
           {skillsArray.map((item, index) => (
             <div
               key={index}

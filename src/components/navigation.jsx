@@ -10,7 +10,7 @@ export default function Navigation() {
           <li className="p-3"> <a href="#skills" className=" p-3">Skills</a></li>
           <li className="p-3"> <a href="#project"  className=" p-3">Projects</a></li>
           <li className="p-3"> <a href="#contact"  className=" p-3">Contact</a></li>
-          <li className="p-3"> <a href  className=" p-3">CV</a></li>
+          {/* <li className="p-3"> <a href  className=" p-3">CV</a></li> */}
         </ul>
       </section>
     </div>
