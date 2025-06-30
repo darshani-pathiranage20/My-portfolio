@@ -159,7 +159,7 @@ export default function Skills() {
         <div className="text-[#ffffff] text-5xl text-center mt-24 mb-10 font-libre opacity-90 ">
           Tools & Frameworks for <br /> Digital Brilliance
         </div>
-        <div className="text-[#ffffff]  px-16  ">
+        {/* <div className="text-[#ffffff]  px-16  ">
           <p className="text-center  opacity-80">
             Empowering innovative digital solutions through a curated selection
             of cutting-edge tools and frameworks. This includes leveraging
@@ -170,7 +170,7 @@ export default function Skills() {
             testing frameworks and continuous integration tools maintain high
             standards of quality and performance.
           </p>
-        </div>
+        </div> */}
         <div className=" grid grid-cols-6  p-16  ">
           {skillsArray.map((item, index) => (
             <div
