@@ -19,7 +19,7 @@ export default function Contact() {
                 <TfiEmail className=" text-white text-7xl  flex " />
               </div> */}
               <div className="mt-20 ml-16">
-                <p className="bg-[#1ae7f6] opacity-80 font-libre text-lg rounded-full p-5 pl-10 text-[#0f0f0f] ">
+                <p className="bg-[#4d9095]  font-libre text-lg rounded-full p-5 pl-10 text-[#ffffff] font-bold ">
                   darshanipathirana2024@gmail.com
                 </p>
               </div>
