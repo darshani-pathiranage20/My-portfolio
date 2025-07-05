@@ -1,0 +1,26 @@
+/* SkillCard.css */
+
+.skill-card {
+  padding: 1rem;
+  width: 24rem;
+  height: 11rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.skill-card-image {
+  width: 15%;
+}
+
+.skill-card-title {
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.skill-card-description {
+  text-align: left;
+  font-size: 0.75rem;
+  color: #57534e; /* stone-700 */
+}

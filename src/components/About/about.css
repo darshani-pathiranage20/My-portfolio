@@ -1,0 +1,126 @@
+/* About.css */
+.about-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 2.5rem;
+}
+
+.about-container-left {
+  padding: 6rem 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-photo img {
+  object-fit: cover;
+  border-radius: 2rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.about-container-right {
+    width: auto;
+    height: 100%;
+    display: grid
+;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    padding-top: 7rem;
+    margin-right: 10rem;
+}
+
+.about-name {
+  color: #C19D23;
+  font-size: 2.25rem;
+  font-family: "Libre Baskerville", serif; /* If you used libre before */
+  display: grid;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.about-description {
+  color: #171616;
+  font-family: sans-serif;
+  display: grid;
+  justify-content: center;
+}
+
+.about-description p {
+  text-align: justify;
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+.about-education-container {
+  
+}
+
+.about-education-title {
+  padding-top: rem;
+  color: #151414;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.875rem;
+}
+
+.about-education-content {
+  color: #222121;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  opacity: 0.8;
+  display: grid;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.empty-line {
+  color: #d4d4d8; /* Zinc-300 */
+  display: grid;
+  justify-content: center;
+}
+
+
+/* Responcive */
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    gap: 5px;
+
+  }
+
+  .about-container-left{
+    padding: 2rem;
+  }
+  .about-container-right {
+
+    text-align: center;
+            width: 100%;
+        padding-top: 10px;
+        padding-bottom: 2px;
+  }
+
+  .about-photo img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .about-name {
+    font-size: 1.5rem;
+
+  }
+
+  .about-description p {
+    font-size: 0.875rem;
+  }
+
+  .about-education-title {
+    font-size: 1.3rem;
+  }
+
+  .about-education-content {
+    font-size: 0.875rem;
+  }
+}
