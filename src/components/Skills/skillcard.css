@@ -2,10 +2,11 @@
 
 .skill-card {
   padding: 1rem;
-  width: 24rem;
-  height: 11rem;
+  width: 13rem;
+  height: 15rem;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.08);
 }
 
 .skill-card-image {

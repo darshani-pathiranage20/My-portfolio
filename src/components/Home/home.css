@@ -221,12 +221,12 @@
 .nav-link.active
 {
   background: #C19D23;
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
 }
 .nav-link:hover {
   background: #f1d98a;
-  color: #fff;
+  color: #1e1c11;
   font-weight: 600;
 }
 
@@ -270,7 +270,6 @@
   width: 340px;
   height: 420px;
   object-fit:scale-down ;
- 
   
 }
 
