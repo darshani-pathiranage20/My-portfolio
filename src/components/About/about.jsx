@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="about-container">
       <div className="about-container-left">
-        <img src={Photo} alt="my Photo" />
+        <img src={Photo} alt="my Photo" className="about-image" />
       </div>
 
       <div className="about-container-right">
@@ -32,17 +32,21 @@ export default function About() {
           
         </div>
         <div className="about-education-container">
-          <p className="about-education-title">Education</p>
-          <p className="about-education-content">
-            (Bsc.(Hons) in Information Technology - Specialization in
-            Information Technology) <br />
-            Sri Lanka Institute of Information Technology (SLIIT)
-            <br />
-            Current Undergraduate Student (2021 - present)
-          </p>
+          <div className="about-education-left">
+            <div><p className="institute-name" >Sri Lanka Institute of <br/> Information Technology (SLIIT)</p></div>
+            <div className="about-education-left-details">
+              <p className="s">Student</p>
+              <p className="education-duration">(2021 - present)</p>
+            </div>
+          </div>
+          <div className="about-education-right">
+            <p className="degree-name">Bsc.(Hons) in Information Technology </p>
+            <p className="s"> Specialization in Information Technology</p>
+
+          </div>
+          
         </div>
-        <div className="empty-line"></div>
-        <div className="empty-line"></div>
+        
       </div>
     </div>
   );
