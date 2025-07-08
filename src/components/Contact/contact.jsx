@@ -11,7 +11,9 @@ export default function Contact() {
     <div className="contact-container">
       <div className="contact-left">
         <div className="contact-heading">
-          <p>Let's work together</p>
+          
+          <p className="contact-heading-1">Let's work together</p>
+          <p className="contact-heading-2">GET IN TOUCH</p>
         </div>
         <div className="contact-info">
           <div>

@@ -2,21 +2,35 @@
 
 .contact-container {
   display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
 }
 
 .contact-left {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 10rem;
 }
 
-.contact-heading {
-  color: white;
-  font-size: 3rem;
-  margin-bottom: 4rem;
-  padding: 1.5rem;
+.contact-heading-1 {
   font-family: "Libre Baskerville", serif;
-  opacity: 0.9;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #ffffff;
+  padding-left: 2rem;
+  background-color: #C19D23;
+}
+
+.contact-heading-2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #C19D23;
+  padding-left: 10rem;
+  padding-top: 6rem;
 }
 
 .contact-info {
@@ -59,7 +73,7 @@
 
 .contact-right {
   display: flex;
-  width: 40vw;
+  width: 50%;
   justify-content: flex-end;
   align-items: flex-end;
   padding-top: 8rem;

@@ -44,7 +44,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="section-contact">
+      <section id="contact" className="section-grid">
         <div>
           <Contact />
         </div>
