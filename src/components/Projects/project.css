@@ -1,0 +1,139 @@
+/* Container for all projects */
+.projects-container {
+    width: 100%;
+    height: auto;
+
+    
+   
+}
+
+.projects-container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6.5rem;
+    background-color: #ffffff;
+}
+
+       
+.projects-container-11 {
+    font-size: 1.5rem;
+    
+    color: #C19D23;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.projects-container-12 {
+    font-size: 1rem;
+    color: #1a1605;
+    opacity: 0.8;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+/* Grid layout for project cards */
+.projects-container-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.4rem;
+  background-color: #33280c;
+    padding-left: 7rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+     padding-bottom: 2rem;
+ 
+}
+
+/* Individual project card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  /* box-shadow: 0 4px 20px rgba(98, 96, 2, 0.4); */
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  height: 250px;
+  /* hover project details */
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  
+}
+
+/* Project image container */
+.project-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+/* Project content */
+.project-content {
+  position: absolute;
+  inset: 0;
+  background: #ffffff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.project-card:hover .project-content {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.project-title {
+  color: #FFB400;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.project-description {
+  color: #221701;
+  font-family: monospace;
+  margin-bottom: 1rem;
+}
+
+.project-tech {
+  color: #221701;
+  font-family: monospace;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .project-image {
+    height: 200px;
+  }
+  .project-title {
+    font-size: 1.1rem;
+  }
+  .project-description,
+  .project-tech {
+    font-size: 0.875rem;
+  }
+} 

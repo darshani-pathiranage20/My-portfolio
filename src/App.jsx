@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import Skills from "./components/Skills/skills";
-import Projects from "./components/projects";
+import Projects from "./components/Projects/projects";
 import Contact from "./components/Contact/contact";
 import Home from "./components/Home/home";
 import About from "./components/About/about";
@@ -37,11 +37,7 @@ function App() {
       </section>
 
       {/* Project Section */}
-      <section id="project">
-        <div className="project-heading">
-          <h4>Project history</h4>
-        </div>
-        <div className="project-heading">Under Construction</div>
+      <section id="projects">
         <div className="section-grid">
           <Projects />
         </div>

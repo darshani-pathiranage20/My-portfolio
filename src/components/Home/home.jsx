@@ -84,7 +84,7 @@ export default function Home() {
           <a className={`nav-link${active === "#home" ? " active" : ""}`} href="#home">HOME</a>
           <a className={`nav-link${active === "#about" ? " active" : ""}`} href="#about">About me</a>
           <a className={`nav-link${active === "#skills" ? " active" : ""}`} href="#skills">Skills</a>
-          <a className={`nav-link${active === "#certificate" ? " active" : ""}`} href="#certificate">Certificate</a>
+          <a className={`nav-link${active === "#projects" ? " active" : ""}`} href="#projects">Projects</a>
           <a className={`nav-link${active === "#contact" ? " active" : ""}`} href="#contact">CONTACT</a>
         </div>
       </nav>
