@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Gardian from "../../assets/gardian.png";
 import Openheart from "../../assets/openheart.png";
+import Zolo from "../../assets/paf.png";
+import SLPEC from "../../assets/SLPEC.jpg";
 import "./project.css";
 
 export default function Projects() {
@@ -13,7 +15,7 @@ export default function Projects() {
       Used_languages: "React Native | Node.js | Express.js | MongoDB |EXPO",
     },
     {
-      image: Openheart,
+      image: Zolo,
       Project_name: "Zolo",
       Project_discription: "Fitness Social Media Platformt",
       Used_languages: "Spring Boot | MySQL | React.js",
@@ -26,25 +28,25 @@ export default function Projects() {
       Used_languages: "Kotlin | Firebase ",
     },
     {
-      image: Gardian,
-      Project_name: "GUARDIAN",
+      image: SLPEC,
+      Project_name: "Smart Learning Platform for Early Childhood Education",
       Project_discription:
-        "Mobile app and web app system for travel security Mobile app and web app system for travel security",
-      Used_languages: "React Native | Node.js | Express.js | MongoDB |EXPO",
+        "React Native mobile application designed to enhance foundational learning for early children aged 3–8",
+      Used_languages: "React Native | Node.js | Flask | Mongo DB | AWS S3 Bucket | EXPO",
     },
-    {
-      image: Openheart,
-      Project_name: "Zolo",
-      Project_discription: "Fitness Social Media Platformt",
-      Used_languages: "Spring Boot | MySQL | React.js",
-    },
+    // {
+    //   image: Openheart,
+    //   Project_name: "Zolo",
+    //   Project_discription: "Fitness Social Media Platformt",
+    //   Used_languages: "Spring Boot | MySQL | React.js",
+    // },
 
-    {
-      image: Openheart,
-      Project_name: "Open Heart  - Mobile Application ",
-      Project_discription: "Charity Donation Management System ",
-      Used_languages: "Kotlin | Firebase ",
-    },
+    // {
+    //   image: Openheart,
+    //   Project_name: "Open Heart  - Mobile Application ",
+    //   Project_discription: "Charity Donation Management System ",
+    //   Used_languages: "Kotlin | Firebase ",
+    // },
   ];
   return (
     <div className="projects-container">

@@ -3,8 +3,6 @@
     width: 100%;
     height: auto;
 
-    
-   
 }
 
 .projects-container-1{
@@ -18,18 +16,20 @@
 
        
 .projects-container-11 {
-    font-size: 1.5rem;
-    
-    color: #C19D23;
-    font-weight: 600;
+    font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  padding-left: 1.5rem;
+  font-size: 2.5rem;
+  color: #C19D23;
     margin-bottom: 1rem;
 }
 
 .projects-container-12 {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-family: "Libre Baskerville", serif;
     color: #1a1605;
     opacity: 0.8;
-    font-weight: 600;
+    
     margin-bottom: 1rem;
     text-align: center;
     margin-left: 5rem;
@@ -76,12 +76,16 @@
   align-items: center;
   overflow: hidden;
   height: 100%;
+  width: 100%;
+   
 }
 
 .project-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center; 
+  display: block;
   
 }
 
