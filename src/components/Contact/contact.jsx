@@ -12,7 +12,6 @@ export default function Contact() {
       <div className="contact-left">
         <div className="contact-heading">
           <p className="contact-heading-1">Let's work together</p>
-          <p className="contact-heading-2">GET IN TOUCH</p>
         </div>
         <div className="contact-info">
           <div>
@@ -24,16 +23,23 @@ export default function Contact() {
               </div> 
               */}
               <div className="contact-email-phone-wrapper">
-                <p className="contact-email">darshanipathirana2024@gmail.com</p>
-                <p className="contact-email">Phone : 075 315 2110</p>
+                <div>
+                  <p className="contact-heading-2">GET IN TOUCH</p>{" "}
+                </div>
+                <div className="contact-email-phone">
+                  <p className="contact-email">
+                    darshanipathirana2024@gmail.com
+                  </p>
+                  <p className="contact-email">Phone : 075 315 2110</p>
+                </div>
               </div>
             </div>
 
             {/* Social Links */}
           </div>
         </div>
-        <div className="flex flex-col">
-          <p className="contact-socials-title">Socials</p>
+        <div className="social">
+          
           <div className="contact-socials">
             <a
               href="https://github.com/it21161742"
