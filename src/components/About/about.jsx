@@ -35,7 +35,7 @@ export default function About() {
           <div className="about-education-left">
             <div><p className="institute-name" >Sri Lanka Institute of <br/> Information Technology (SLIIT)</p></div>
             <div className="about-education-left-details">
-              <p className="s">Student</p>
+              <p className="s">Undergraduate</p>
               <p className="education-duration">(2021 - present)</p>
             </div>
           </div>
