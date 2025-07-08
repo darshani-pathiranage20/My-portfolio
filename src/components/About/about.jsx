@@ -31,17 +31,19 @@ export default function About() {
           </p>
           
         </div>
+        <div className="education">Education</div>
         <div className="about-education-container">
           <div className="about-education-left">
             <div><p className="institute-name" >Sri Lanka Institute of <br/> Information Technology (SLIIT)</p></div>
             <div className="about-education-left-details">
-              <p className="s">Undergraduate</p>
-              <p className="education-duration">(2021 - present)</p>
+              <p className="current-state">Undergraduate</p>
+              
             </div>
           </div>
           <div className="about-education-right">
             <p className="degree-name">Bsc.(Hons) in Information Technology </p>
-            <p className="s"> Specialization in Information Technology</p>
+            <p className="specilization"> Specialization in Information Technology</p>
+            <p className="education-duration">(2021 - present)</p>
 
           </div>
           

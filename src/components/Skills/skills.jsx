@@ -87,7 +87,7 @@ export default function Skills() {
               title="Cloud Engineering"
               description="I enjoy understanding how to design, secure, and maintain
                 cloud-based infrastructure and applications."
-              color="#f1d98a"
+              color="#f1d98a" 
             />
             <SkillCard
               image={SreIcon}

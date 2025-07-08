@@ -59,10 +59,11 @@
 .about-education-container {
      background-color: #ffffff;
     display: flex;
-    margin-top: 3rem;
-    box-shadow: 2px 2px 1px #f9edd8;
-    border-radius: 1rem;
     
+    box-shadow: 0px 0px 3px 0px #f9edd8;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 12px;
   
 }
 
@@ -78,41 +79,59 @@
 .about-education-right {
  width: 50%;
  padding-left: 1rem;
- padding-top: 0.92rem;
+ padding-top: 0.5rem;
 }
 
 .education-duration {
-    background-color: #C19D23;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
+    background-color: #f1d98a;
+    padding: 0.2rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
     border-radius: 0.2rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    color: #ffffff;
+    width: max-content;
+    margin-top: 0.9rem;
 }
 
 .about-education-left-details {
   display: flex;
   gap: 3rem;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
+  align-items: end;
 }
 
 .degree-name {
-  font-size: 1.14rem;
-  font-weight: 300;
-  padding-bottom: 2.8rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+  
 }
 
 .institute-name {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
 
 }
 
-.s {
-  opacity: 0.8;
+.current-state {
+  font-size: 12px;
+  color: #bfc7c7;
 }
 
+.specilization {
+  font-size: 12px;
+  color: #bfc7c7;
+}
 
-
+.education {
+  color: #C19D23;
+  font-size: 1rem;
+  padding-bottom: 5px;
+  font-family: "Libre Baskerville", serif;
+  padding-top: 2rem;
+ 
+  opacity: 0.8;
+}
 
 /* Responcive */
 @media (max-width: 768px) {
