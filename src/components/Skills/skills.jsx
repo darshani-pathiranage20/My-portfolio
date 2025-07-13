@@ -1,4 +1,5 @@
 import React from "react";
+import { useInView } from "../../hooks/useInView"; // 1. Import the custom hook
 import "./skill.css";
 import Webdesign from "../../assets/webdesign.png";
 import Webcontent from "../../assets/webcontent.png";
@@ -27,9 +28,12 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaGithub } from "react-icons/fa";
-
-
+import { SiExpo } from "react-icons/si";
 export default function Skills() {
+
+  // // 2. Use the hook for the Skills section
+  //   const [skillsRef, skillsInView] = useInView({ threshold: 0.2 });
+  
   const skillsArray = [
     { language: "Java", icon: <FaJava /> },
     { language: "JS", icon: <DiJavascript1 /> },
@@ -48,9 +52,10 @@ export default function Skills() {
     { language: "Tailwind CSS", icon: <RiTailwindCssFill /> },
     { language: "Express js", icon: <SiPostman /> },
     { language: "Postman", icon: <SiPostman /> },
-    { language: "EXPO", icon: <FaGithub /> },
+    { language: "EXPO", icon: <SiExpo /> },
     { language: "VS Code", icon: <VscVscode /> },
-    { language: "GitHub", image: <FaGithub /> },
+    { language: "GitHub", icon: <FaGithub /> },
+
 
     // { language: "Java", icon: <FaJava /> },
     // { language: "Java", icon: <IoLogoJavascript /> },
@@ -79,7 +84,7 @@ export default function Skills() {
   return (
     <div>
       <div className="skills-container">
-        <div className="skills-container-left">
+        <div className="skills-container-left" >
           <div className="skills-background">
             <p className="skills-background-title">My Interestings</p>
             <p className="skills-title">My Interesting</p>

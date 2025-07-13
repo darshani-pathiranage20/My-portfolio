@@ -61,10 +61,6 @@
 }
 } */
 
-/* Common grid section spacing */
-.section-grid {
-  
-}
 
 /* Project title text */
 .project-heading {
@@ -74,5 +70,38 @@
   font-family: 'Arvo', serif;
 }
 
-/* Contact section */
+/* Common grid section spacing */
+.section-grid-3 {
+   /* opacity: 0;
+  transform: translateY(-80px) scale(0.98);
+  filter: blur(8px);
+  transition: none; */
+}
 
+/* .section-grid-3.animate {
+  animation: slideDownFade 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+} */
+
+
+
+/* 3. Keyframes for the animation */
+/* @keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px) scale(0.98);
+    filter: blur(8px);
+  }
+  60% {
+    opacity: 0.7;
+    transform: translateY(10px) scale(1.01);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+} */
