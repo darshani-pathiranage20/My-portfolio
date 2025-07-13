@@ -112,7 +112,7 @@
 }
 
 .project-title {
-  color: #FFB400;
+  color: #C19D23;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -121,12 +121,15 @@
   color: #221701;
   font-family: monospace;
   margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
 }
 
 .project-tech {
-  color: #221701;
+  color: #6f6f6e;
   font-family: monospace;
   padding-bottom: 1rem;
+  font-weight: bolder;
 }
 
 @media (max-width: 768px) {

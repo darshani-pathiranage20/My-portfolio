@@ -8,7 +8,7 @@
 // export default function Home() {
 //   return (
 //     <div className="home-section" id="home" >
-      
+
 //       <div className="home-container-left">
 //         <p className="intro-text">Hi, I’m Darshani</p>
 //         <p className="sub-text">
@@ -56,7 +56,6 @@
 //   );
 // }
 
-
 import React, { useEffect, useState } from "react";
 import "./home.css";
 import { IoLogoGithub } from "react-icons/io";
@@ -81,11 +80,36 @@ export default function Home() {
           <span className="logo-highlight">My</span> Portfolio
         </span>
         <div className="nav-links">
-          <a className={`nav-link${active === "#home" ? " active" : ""}`} href="#home">HOME</a>
-          <a className={`nav-link${active === "#about" ? " active" : ""}`} href="#about">About me</a>
-          <a className={`nav-link${active === "#skills" ? " active" : ""}`} href="#skills">Skills</a>
-          <a className={`nav-link${active === "#projects" ? " active" : ""}`} href="#projects">Projects</a>
-          <a className={`nav-link${active === "#contact" ? " active" : ""}`} href="#contact">CONTACT</a>
+          <a
+            className={`nav-link${active === "#home" ? " active" : ""}`}
+            href="#home"
+          >
+            HOME
+          </a>
+          <a
+            className={`nav-link${active === "#about" ? " active" : ""}`}
+            href="#about"
+          >
+            About me
+          </a>
+          <a
+            className={`nav-link${active === "#skills" ? " active" : ""}`}
+            href="#skills"
+          >
+            Skills
+          </a>
+          <a
+            className={`nav-link${active === "#projects" ? " active" : ""}`}
+            href="#projects"
+          >
+            Projects
+          </a>
+          <a
+            className={`nav-link${active === "#contact" ? " active" : ""}`}
+            href="#contact"
+          >
+            CONTACT
+          </a>
         </div>
       </nav>
 
@@ -101,22 +125,42 @@ export default function Home() {
             <h2 className="hello">Hello!</h2>
             <h1 className="name">I’m Darshani</h1>
             <div className="degree">
-              Bachelor of Science (Hons) in Information Technology - Specilication in Information Technology <br />
-              Sri Lanka Institute of Information Technology (SLIIT)
+              Final-year Information Technology undergraduate with hands-on
+              experience in full-stack development, cloud technologies.
+              Passionate about building real-world solutions and learning modern
+              tools to improve system performance and usability.
             </div>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/darshani-pathiranage-000b88217/" target="_blank" rel="noopener noreferrer" className="icon-btn">
+              <a
+                href="https://www.linkedin.com/in/darshani-pathiranage-000b88217/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-btn"
+              >
                 <FaLinkedin size={28} />
               </a>
-              <a href="https://github.com/it21161742" target="_blank" rel="noopener noreferrer" className="icon-btn">
+              <a
+                href="https://github.com/it21161742"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-btn"
+              >
                 <IoLogoGithub size={28} />
               </a>
-              <a href="/Darshani Pathiranage_CV.pdf" download="Darshani Pathiranage_CV" className="icon-btn">
+              <a
+                href="/Darshani Pathiranage_CV.pdf"
+                download="Darshani Pathiranage_CV"
+                className="icon-btn"
+              >
                 <MdCloudDownload size={28} />
               </a>
             </div>
             <div className="download-section">
-              <a href="/Darshani Pathiranage_CV.pdf" download="Darshani Pathiranage_CV" className="icon-btn" >
+              <a
+                href="/Darshani Pathiranage_CV.pdf"
+                download="Darshani Pathiranage_CV"
+                className="icon-btn"
+              >
                 <MdCloudDownload size={28} />
                 <p className="download CV">Download CV</p>
               </a>

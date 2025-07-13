@@ -9,64 +9,85 @@ import DevOpsIcon from "../../assets/devOps.png";
 import SoftwareDevIcon from "../../assets/SE.png";
 import SkillCard from "../Skills/SkillCard";
 
+import { FaJava } from "react-icons/fa6";
+import { DiJavascript1 } from "react-icons/di";
+import { FaCss3Alt } from "react-icons/fa6";
+import { FaHtml5 } from "react-icons/fa6";
+import { IoLogoPython } from "react-icons/io";
+import { DiMysql } from "react-icons/di";
+import { SiMongodb } from "react-icons/si";
+import { GrOracle } from "react-icons/gr";
+import { FaAws } from "react-icons/fa";
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiSqlite } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
+import { IoLogoNodejs } from "react-icons/io";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiPostman } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
+import { FaGithub } from "react-icons/fa";
+
+
 export default function Skills() {
   const skillsArray = [
+    { language: "Java", icon: <FaJava /> },
+    { language: "JS", icon: <DiJavascript1 /> },
+    { language: "CSS", icon: <FaCss3Alt /> },
+    { language: "HTML", icon: <FaHtml5 /> },
+    { language: "Python", icon: <IoLogoPython /> },
+    { language: "MySQL", icon: <DiMysql /> },
+    { language: "MongoDB", icon: <SiMongodb /> },
+    { language: "Oracle", icon: <GrOracle /> },
+    { language: "AWS", icon: <FaAws /> },
+    { language: "Firebase", icon: <IoLogoFirebase /> },
+    { language: "SQLite", icon: <SiSqlite /> },
+    { language: "React", icon: <FaReact /> },
+    { language: "React Native", icon: <TbBrandReactNative /> },
+    { language: "Node js", icon: <IoLogoNodejs /> },
+    { language: "Tailwind CSS", icon: <RiTailwindCssFill /> },
+    { language: "Express js", icon: <SiPostman /> },
+    { language: "Postman", icon: <SiPostman /> },
+    { language: "EXPO", icon: <FaGithub /> },
+    { language: "VS Code", icon: <VscVscode /> },
+    { language: "GitHub", image: <FaGithub /> },
+
+    // { language: "Java", icon: <FaJava /> },
+    // { language: "Java", icon: <IoLogoJavascript /> },
     // { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    // { language: "JavaScript", image: "../src/assets/skills/css.png" },
-    // { language: "CSS", image: "../src/assets/skills/css.png" },
-    // { language: "HTML", image: "../src/assets/skills/css.png" },
-    // { language: "Python", image: "../src/assets/skills/css.png" },
-    // { language: "MySQL", image: "../src/assets/skills/css.png" },
-    // { language: "MongoDB", image: "../src/assets/skills/css.png" },
-    // { language: "oracle", image: "../src/assets/skills/css.png" },
-    // { language: "AWS", image: "../src/assets/skills/css.png" },
-    // { language: "Firebase", image: "../src/assets/skills/css.png" },
-    // { language: "SQLite", image: "../src/assets/skills/css.png" },
-    // { language: "React", image: "../src/assets/skills/css.png" },
-    // { language: "React Native", image: "../src/assets/skills/css.png" },
-    // { language: "Node js", image: "../src/assets/skills/css.png" },
-    // { language: "Tailwind CSS", image: "../src/assets/skills/css.png" },
-    // { language: "Express js", image: "../src/assets/skills/css.png" },
-    // { language: "Postman", image: "../src/assets/skills/css.png" },
-    // { language: "EXPO", image: "../src/assets/skills/css.png" },
-    // { language: "VS Code", image: "../src/assets/skills/css.png" },
-    // { language: "GitHub", image: "../src/assets/skills/css.png" },
-
-
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
-    { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
+    // { language: "Java", image: "../src/assets/tools-icons/java.png" },
   ];
 
   return (
     <div>
       <div className="skills-container">
         <div className="skills-container-left">
-         <div className="skills-background">
-           <p className="skills-background-title">My Interestings</p>
-          <p className="skills-title">My Interesting</p>
-         </div>
+          <div className="skills-background">
+            <p className="skills-background-title">My Interestings</p>
+            <p className="skills-title">My Interesting</p>
+          </div>
           <div className="skills-subtitle">
-            <p>I Exploring the World of <br/> Cloud, Code, and <br/> Automation</p>
+            <p>
+              I Exploring the World of <br /> Cloud, Code, and <br /> Automation
+            </p>
           </div>
           <div className="skills-description">
             <p>
@@ -87,7 +108,7 @@ export default function Skills() {
               title="Cloud Engineering"
               description="I enjoy understanding how to design, secure, and maintain
                 cloud-based infrastructure and applications."
-              color="#f1d98a" 
+              color="#f1d98a"
             />
             <SkillCard
               image={SreIcon}
@@ -116,14 +137,14 @@ export default function Skills() {
 
       <div className="skills-tools-container">
         <div className="tools-title">
-          Tools & Frameworks for <br /> Digital Brilliance
+          Tools & Frameworks
         </div>
 
         <div className="skills-grid">
           {skillsArray.map((item, index) => (
             <div key={index} className="skills-grid-item">
               <div className="skills-icon-grid">
-                <img  className="skill-icon-image" src={item.image} />
+                {item.icon}
                 <p className="skill-icon-text">{item.language}</p>
               </div>
             </div>
