@@ -1,75 +1,39 @@
-// import React from "react";
-// import "./home.css";
-// import { IoLogoGithub } from "react-icons/io";
-// import { FaLinkedin } from "react-icons/fa6";
-// import { MdCloudDownload } from "react-icons/md";
-// import Img from "../../assets/my Photo-2.png";
-
-// export default function Home() {
-//   return (
-//     <div className="home-section" id="home" >
-
-//       <div className="home-container-left">
-//         <p className="intro-text">Hi, I’m Darshani</p>
-//         <p className="sub-text">
-//           BSc.(Hons) in Information Technology specialized in Information
-//           Technology
-//         </p>
-//         <div className="icon-row">
-//           <div className="icon">
-//             <a
-//               href="https://github.com/it21161742"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               <IoLogoGithub size={40} style={{ color: "white" }} />
-//             </a>
-//           </div>
-//           <div className="icon">
-//             <a
-//               href="https://www.linkedin.com/in/darshani-pathiranage-000b88217/"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               <FaLinkedin size={40} style={{ color: "white" }} />
-//             </a>
-//           </div>
-//         </div>
-//         <div className="download-section">
-//           <div className="download-text">Download CV</div>
-//           <div className="download-icon">
-//             <a
-//               href="/Darshani Pathiranage_CV.pdf"
-//               download="Darshani Pathiranage_CV"
-//             >
-//               <MdCloudDownload size={30} style={{ color: "white" }} />
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="home-container-right">
-//         <div className="profile-image-container">
-//           <img src={Img} alt="Profile" className="profile-image" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 import React, { useEffect, useState } from "react";
 import "./home.css";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdCloudDownload } from "react-icons/md";
 import Img from "../../assets/my Photo-2.png";
+import { FaInstagramSquare } from "react-icons/fa";
 
 export default function Home() {
   const [active, setActive] = useState(window.location.hash || "#home");
 
   useEffect(() => {
-    const onHashChange = () => setActive(window.location.hash || "#home");
-    window.addEventListener("hashchange", onHashChange);
-    return () => window.removeEventListener("hashchange", onHashChange);
+    const sectionIds = ["home", "about", "skills", "projects", "contact"];
+
+    const onScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight / 3;
+      let currentSection = "#home";
+      for (let id of sectionIds) {
+        const section = document.getElementById(id);
+        if (section && section.offsetTop <= scrollPosition) {
+          currentSection = `#${id}`;
+        }
+      }
+      setActive(currentSection);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    window.addEventListener("hashchange", onScroll); // Also update on hash change
+
+    // Initial check
+    onScroll();
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("hashchange", onScroll);
+    };
   }, []);
 
   return (
@@ -125,10 +89,11 @@ export default function Home() {
             <h2 className="hello">Hello!</h2>
             <h1 className="name">I’m Darshani</h1>
             <div className="degree">
-              Final-year Information Technology undergraduate with hands-on
-              experience in full-stack development, cloud technologies.
-              Passionate about building real-world solutions and learning modern
-              tools to improve system performance and usability.
+              I’m a final-year Information Technology undergraduate, passionate
+              about gaining hands-on experience in full-stack development and
+              cloud technologies. I enjoy building real-world solutions and
+              constantly seek opportunities to learn modern tools that improve
+              system performance, usability, and overall user experience.
             </div>
             <div className="social-icons">
               <a
@@ -148,11 +113,12 @@ export default function Home() {
                 <IoLogoGithub size={28} />
               </a>
               <a
-                href="/Darshani Pathiranage_CV.pdf"
-                download="Darshani Pathiranage_CV"
+                href="https://www.instagram.com/darshani_pathiranage_/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="icon-btn"
               >
-                <MdCloudDownload size={28} />
+                <FaInstagramSquare size={28} />
               </a>
             </div>
             <div className="download-section">

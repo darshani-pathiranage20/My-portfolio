@@ -55,7 +55,15 @@ export default function Contact() {
             >
               <FaLinkedin size={40} className="contact-icon" />
             </a>
-            <FaInstagramSquare size={40} className="contact-icon" />
+            <a
+              href="https://www.instagram.com/darshani_pathiranage_/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <FaInstagramSquare size={40} className="contact-icon" />
+            </a>
+            
           </div>
         </div>
       </div>

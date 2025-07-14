@@ -158,8 +158,7 @@
   color: #222;
   font-size: 1.5rem;
   gap: 1.5rem;
-  justify-content: center;
-  
+  justify-content: center; 
 }
 
 .download-section{
@@ -169,6 +168,7 @@
   background: #f1d98a;
   color: #fff;
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  
 }
 
 /* Responsive */
