@@ -105,7 +105,7 @@ export default function Home() {
                 <FaLinkedin size={28} />
               </a>
               <a
-                href="https://github.com/it21161742"
+                href="https://github.com/darshani-pathiranage20"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="icon-btn"

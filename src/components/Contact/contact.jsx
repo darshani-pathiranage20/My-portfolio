@@ -42,7 +42,7 @@ export default function Contact() {
           
           <div className="contact-socials">
             <a
-              href="https://github.com/it21161742"
+              href="https://github.com/darshani-pathiranage20"
               target="_blank"
               rel="noopener noreferrer"
             >
